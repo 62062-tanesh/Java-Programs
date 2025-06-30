@@ -3,7 +3,7 @@ import java.util.Scanner;
 class LCM {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter The Number: ");
+        System.out.print("Enter The First Number: ");
         int n1 = sc.nextInt();
         System.out.print("Enter The Second Number: ");
         int n2 = sc.nextInt();
