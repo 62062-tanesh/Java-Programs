@@ -8,23 +8,18 @@ public class SumOfDigitsUntilSingleDigit {
         long result = singleDigitSum(n);
         System.out.println("The Single Digit Sum of The Number is: "+result);
     }
-    public static long singleDigitSum(long n){
+    public static long DigitSum(long n){
         long sum = 0;
-        while(n>0) {
+        while(n != 0) {
             sum += n % 10;
             n = n / 10;
         }
-        System.out.println(sum);
-        int sum1 = 0;
-        if(sum > 9){
-            while(sum > 0){
-                sum1 += sum%10;
-                sum = sum/10;
-            }
-        }else{
-            return sum;
+        return sum;
+    }
+    public static long singleDigitSum(long n){
+        while(n>=10){
+            n = DigitSum(n);
         }
-        System.out.println(sum1);
-        return sum1;
+        return n;
     }
 }
