@@ -5,7 +5,7 @@ public class ReverseWordsInSentence {
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
         String str1 = "";
-        StringBuilder sb  = new StringBuilder("");
+        StringBuilder sb  = new StringBuilder();
         for (int i=0; i<str.length(); i++){
             char ch = str.charAt(i);
             if(ch !=' '){
@@ -13,7 +13,7 @@ public class ReverseWordsInSentence {
             }else{
                 sb.reverse();
                 str1 += sb +" ";
-                sb = new StringBuilder("");
+                sb = new StringBuilder();
             }
         }
         sb.reverse();
