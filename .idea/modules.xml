@@ -23,6 +23,7 @@
       <module fileurl="file://$PROJECT_DIR$/Practice/Questions.iml" filepath="$PROJECT_DIR$/Practice/Questions.iml" />
       <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ternary and Switch/Ternary and Switch.iml" filepath="$PROJECT_DIR$/Ternary and Switch/Ternary and Switch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Threading/Threading.iml" filepath="$PROJECT_DIR$/Threading/Threading.iml" />
       <module fileurl="file://$PROJECT_DIR$/Variable Arguments/Variable Arguments.iml" filepath="$PROJECT_DIR$/Variable Arguments/Variable Arguments.iml" />
     </modules>
   </component>
