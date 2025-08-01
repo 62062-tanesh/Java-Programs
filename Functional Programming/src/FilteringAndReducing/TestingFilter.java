@@ -2,7 +2,7 @@ package FilteringAndReducing;
 import java.util.List;
 import java.util.function.Consumer;
 
-public class TestingFilterAndReduce {
+public class TestingFilter {
     public static void main(String[] args) {
         List<String> fruits = List.of("Apple","Banana","Mango","Papaya");
         System.out.println(fruits.size());
